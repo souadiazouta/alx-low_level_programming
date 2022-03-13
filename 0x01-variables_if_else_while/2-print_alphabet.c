@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - print the alphabet in lower case followed by a new line
+ * main - print the alphabet in lower case followed by a new line.
  *
- * Return : Always 0
-*/
+ * Return: Always 0.
+ */
 int main(void)
 {
 	char alph;
