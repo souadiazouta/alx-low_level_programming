@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	system("echo 'and that piece of art is useful\" -\t"
-" Dora korpar, 2015-10-19\n'");
+	system("echo 'and that piece of art is useful\" - Dora korpar, \t"
+"2015-10-19\n'");
 
 	return (1);
 }
