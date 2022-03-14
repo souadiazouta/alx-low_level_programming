@@ -7,6 +7,8 @@
  */
 int main(void)
 {
-	system("echo 'and that piece of art is useful\" - Dora korpar, 2015-10-19\n'");
+	char syt ="and that piece of art is useful\" - Dora korpar, 2015-10-19\n";
+
+	system("echo syt");
 	return (1);
 }
