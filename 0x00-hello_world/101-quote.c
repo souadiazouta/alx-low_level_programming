@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdin.h>
 /**
  * main - print text using system command
  *
