@@ -8,14 +8,15 @@
 int main(void)
 {
 	char num;
+	char alph;
 
 	for (num = 0 ; num < 10 ; num++)
 	{
 		putchar(num % 16 + '0');
 	}
-	for (num = 97 ; num < 103 ; num++)
+	for (alph = 97 ; alph < 103 ; alph++)
 	{
-		putchar(num % 16 + '0');
+		putchar(alph % 16 + '0');
 	}
 	putchar('\n');
 
