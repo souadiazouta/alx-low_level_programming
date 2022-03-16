@@ -24,6 +24,9 @@ void times_table(void)
 			{
 				putchar(((i * j) % 10) + '0');
 			}
+			else if (j ==0)
+			{
+				putchar('0');
 			if (j != 0)
 			{
 				putchar(',');
