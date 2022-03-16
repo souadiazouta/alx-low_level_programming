@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
@@ -16,9 +17,9 @@ void jack_bauer(void)
 	{
 		for(min = 00 ; min <= 59 ; min++)
 		{
-			putchar(h);
+			putchar('0' + h);
 			putchar(':');
-			putchar(min);
+			putchar('0' + min);
 			putchar('\n');
 		}
 	}
