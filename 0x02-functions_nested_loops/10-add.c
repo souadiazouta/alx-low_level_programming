@@ -4,7 +4,8 @@
 /**
  * add - function that add two integer and return value
  *
- * @n ,@b: two variables to add
+ * @n : first variable to add
+ * @b : second variable to add
  * Return: add value
  */
 int add(int n, int b)
