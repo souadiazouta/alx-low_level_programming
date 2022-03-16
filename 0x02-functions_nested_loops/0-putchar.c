@@ -5,11 +5,11 @@
 /**
  * main - print _putchar
  *
- * Return :0 Always
+ * Return: 0 success
  */
 
 int main(void)
 {
-	write(1, "_putchar", sizeof("_putchar"));
+	write(1, "_putchar\n", sizeof("_putchar\n"));
 	return (0);
 }
