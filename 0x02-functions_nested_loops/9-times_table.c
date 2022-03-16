@@ -18,7 +18,7 @@ void times_table(void)
 			if (j != 0)
 			{
 				putchar(',');
-				putchar(' ');
+				putchar('  ');
 			}
 			if (j ==0)
 			{
