@@ -17,9 +17,11 @@ void jack_bauer(void)
 	{
 		for(min = 00 ; min <= 59 ; min++)
 		{
-			write(1, h, sizeof(h));
+			putchar((h / 10) + '0');
+			putchar((h % 10) + '0');
 			putchar(':');
-			putchar(min / 10 + '0');
+			putchar((min / 10) + '0');
+			putchar((min % 10) + '0');
 			putchar('\n');
 		}
 	}
