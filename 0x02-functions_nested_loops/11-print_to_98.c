@@ -19,9 +19,10 @@ void print_to_98(int n)
 			putchar(',');
 			putchar(' ');
 		}
-		if (j == 0)
+		if (j == 98)
 		{
-			putchar('0');
+			putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
 		}
 		else if ((j) >= 10)
 		{
@@ -42,6 +43,5 @@ void print_to_98(int n)
 			putchar((-((-j) / 10)) + '0');
 			putchar((-((-j) % 10)) + '0');
 		}
-		putchar('\n');
 	}
 }
