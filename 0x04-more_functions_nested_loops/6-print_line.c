@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_line -print the character _ n time.
+ * print_line - print the character '_' n time.
  *  
  * @n: variable number of time
  */
@@ -15,7 +15,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (i = 0 ; i <= n ; i++)
+		for (i = 1 ; i <= n ; i++)
 		{
 			_putchar(95);
 		}
