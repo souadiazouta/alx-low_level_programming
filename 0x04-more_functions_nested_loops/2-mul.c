@@ -4,7 +4,9 @@
 /**
  * mul - function that multiplies two integers.
  *
- * @a, @b: two variables integers.
+ * @a: variable intger.
+ * @b: variable integer.
+ *
  * Return: result of multiplies two integers.
  */
 
