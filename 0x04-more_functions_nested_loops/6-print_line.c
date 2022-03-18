@@ -5,8 +5,7 @@
 /**
  * print_line -print the character _ n time.
  *  
- *  @n: variable number of time
- * Return: Always 0.
+ * @n: variable number of time
  */
 
 void print_line(int n)
@@ -20,5 +19,6 @@ void print_line(int n)
 			_putchar(95);
 		}
 	}
+
 	_putchar('\n');
 }
