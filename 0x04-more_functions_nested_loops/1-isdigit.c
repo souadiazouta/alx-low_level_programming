@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * _isdigit - function that checks for a digit 
- * (0 through 9).
- * @c : variable
+ * _isdigit - checks for a digit (0 through 9).
+ *
+ * @c: variable.
+ *
  * Return: 1 if c is a digit ,0 otherwise.
  */
 
