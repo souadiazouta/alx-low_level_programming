@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -8,7 +9,7 @@
 
 void print_rev(char *s)
 {
-	int len;
+	int i;
 
 	for (i = (int)strlen(s) - 1 ; 1 >= 0 ; i--)
 	{
