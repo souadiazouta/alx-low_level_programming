@@ -3,8 +3,7 @@
 
 /**
  * reset_to_98 - functions that takes a pointer to an int
- * as paramater and updates the value it points to 98.
- * 
+ * as paramater and updates the value it points to 98. 
  * @n: pointer
  */
 
