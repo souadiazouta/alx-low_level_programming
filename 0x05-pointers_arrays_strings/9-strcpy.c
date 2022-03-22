@@ -13,7 +13,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	char *ptr;
+	char *ptr = NULL;
 
 	/*if (dest != NULL)
 	{
