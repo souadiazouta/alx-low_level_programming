@@ -13,13 +13,10 @@ void rev_string(char *s)
 	int len, i;
 
 	len = (int)strlen(s) - 1;
-	for (i = 0 ; i < len / 2 ; i++)
+	for (i = 0 ; i <= len / 2 ; i++)
 	{
-	/*	if (s[i] != s[len - i])
-		{*/
-			rev = s[i];
-			s[i] = s[len-i];
-			s[len - i] = rev;
-	/*	}*/
+		rev = s[i];
+		s[i] = s[len - i];
+		s[len - i] = rev;
 	}
 }
