@@ -16,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 
 	if (dest != NULL)
 	{
-		*dest = NULL;
+		*dest = " ";
 	}
 	for (i = 0 ; i < (int)strlen(src) ; i++)
 	{
