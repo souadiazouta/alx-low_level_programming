@@ -13,10 +13,10 @@ char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	/*if (dest != NULL)
+	if (dest == NULL)
 	{
-		dest = NULL;
-	}*/
+		return NULL;
+	}
 
 	for (i = 0 ; i < (int)strlen(src) ; i++)
 	{
