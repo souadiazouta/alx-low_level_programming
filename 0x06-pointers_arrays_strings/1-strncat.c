@@ -7,7 +7,8 @@
  * @dest: the destination string and the result is stored in it.
  * @src: the source string.
  * @n: number of byte from src
- * Returns:  pointer to the resulting string dest.
+ *
+ * Return:  pointer to the resulting string dest.
  */
 
 char *_strncat(char *dest, char *src, int n)
