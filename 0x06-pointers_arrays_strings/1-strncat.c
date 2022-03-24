@@ -3,22 +3,23 @@
 #include "main.h"
 
 /**
- * _strcat - function that concatenates two strings.
+ * _strncat - function that concatenates two strings.
  * @dest: the destination string and the result is stored in it.
  * @src: the source string.
+ * @n: number of byte from src
  * Returns:  pointer to the resulting string dest.
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int i, n;
+	int i, d;
 
-	n = (int)strlen(dest);
-	for (i = 0 ; i < (int)strlen(src) ; i++)
+	d = (int)strlen(dest);
+	for (i = 0 ; i < n ; i++)
 	{
-		dest[n + i] = src[i];
+		dest[d + i] = src[i];
 	}
 	
-	dest[n + i] = '\0';
+	dest[d + i] = '\0';
 	return dest;
 }
