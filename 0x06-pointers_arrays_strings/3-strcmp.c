@@ -16,7 +16,7 @@ int _strcmp(char *s1, char *s2)
 	n1 = (int)strlen(s1);
 	n2 = (int)strlen(s2);
 
-	if ( n1 == n2)
+	if (n1 == n2)
 	{
 		return (0);
 	}
