@@ -7,13 +7,15 @@
  * Return: Always 0.
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
+	
 	int i;
-
+	
 	for (i = 0 ; i < argc ; i++)
 	{
-		_putchar(argv[i]);
+		printf("%s", argv[0]);
+	
 	}
 	_putchar('\n');
 
