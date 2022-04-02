@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main - program that prints its name .
@@ -12,8 +13,9 @@ int main(int argc, char* argv[])
 
 	for (i = 0 ; i < argc ; i++)
 	{
-		printf("%s\n", argv[i]);
+		_putchar(argv[i]);
 	}
+	_putchar('\n');
 
 	return 0;
 }
