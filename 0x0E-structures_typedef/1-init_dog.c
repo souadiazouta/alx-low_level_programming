@@ -4,7 +4,7 @@
 /**
  * init_dog - function that intialize struct dog.
  * 
- * @d:name struct dog in struct.
+ * @d: name of struct dog.
  * @name: name of dog in struct.
  * @age: age of dog in struct.
  * @owner: name of owner of dog in struct.
