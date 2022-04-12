@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int i = 0;
+	int i;
 
 	for ( i = 0 ; i < (int)strlen(__FILE__) ; i++)
 	{
