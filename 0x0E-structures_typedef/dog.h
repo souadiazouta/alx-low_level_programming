@@ -8,5 +8,5 @@ struct dog
 	char *owner;
 };
 
-typedef struct dog_t;
+typedef struct dog dog_t;
 #endif
