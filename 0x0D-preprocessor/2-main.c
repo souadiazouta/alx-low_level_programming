@@ -15,7 +15,7 @@ int main(void)
 
 	for ( i = 0 ; i < (int)strlen(__FILE__) ; i++)
 	{
-		_putchar(__FILE__);
+		_putchar(__FILE__[i]);
 	}
 	_putchar('\n');
 	
