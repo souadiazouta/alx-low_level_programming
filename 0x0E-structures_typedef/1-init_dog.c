@@ -4,10 +4,10 @@
 /**
  * init_dog - function that intialize struct dog.
  * 
- * @d: variable of type struct dog.
- * @name: variable for name of dog.
- * @age: variable for age of dog.
- * @owner: variable for owner of dog.
+ * @d:name struct dog in struct.
+ * @name: name of dog in struct.
+ * @age: age of dog in struct.
+ * @owner: name of owner of dog in struct.
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
