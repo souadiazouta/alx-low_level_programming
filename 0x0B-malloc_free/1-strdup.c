@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * _strdup - function returns a pointer to a new string 
+ * _strdup - function returns a pointer to a new string
  * which is a dupicate of the string str.
  *
  * @str: the string that will be duplicate.
@@ -25,17 +25,18 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+
 	arr = malloc(size * sizeof(char));
-	if (arr != NULL)
-	{
-		for (i = 0 ; i < size ; i++)
-		{
-			arr[i] = str[i];
-		}
-	}
-	else
+
+	if (arr == NULL)
 	{
 		return (NULL);
 	}
+
+	for (i = 0 ; i < size ; i++)
+	{
+		arr[i] = str[i];
+	}
+
 	return (arr);
 }
