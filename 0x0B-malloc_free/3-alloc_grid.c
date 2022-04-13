@@ -9,7 +9,7 @@
  * @width: width of the array.
  * @height: height of the array.
  *
- * Return the array or NULL on failue.
+ * Return: the array or NULL on failue.
  */
 
 int **alloc_grid(int width, int height)
