@@ -4,7 +4,7 @@
 
 /**
  *
- * main - check the code
+ * main - print the name of the file.
  *
  * Return: Always 0.
  */
