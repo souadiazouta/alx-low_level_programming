@@ -15,7 +15,7 @@
 char *_strdup(char *str)
 {
 	char *arr;
-	int i, size;
+	unsigned int i, size;
 
 
 	size = strlen(str);
@@ -25,7 +25,7 @@ char *_strdup(char *str)
 		arr = malloc(size * sizeof(char));
 		if (arr != NULL)
 		{
-			for (i = 0 ; i < (int)size ; i++)
+			for (i = 0 ; i < size ; i++)
 			{
 				arr[i] = str[i];
 			}
