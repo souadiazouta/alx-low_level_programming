@@ -18,7 +18,8 @@ char *_strdup(char *str)
 	char *arr;
 	unsigned int i, size;
 
-	
+
+
 	if (str == NULL)
 	{
 		return (NULL);
