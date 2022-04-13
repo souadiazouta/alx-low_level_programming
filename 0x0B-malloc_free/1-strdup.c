@@ -19,14 +19,15 @@ char *_strdup(char *str)
 	unsigned int i, size;
 
 
-	size = strlen(str);
-
+	
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	arr = malloc(size * sizeof(char));
+	size = strlen(str);
+
+	arr = malloc((size + 1 ) * sizeof(char));
 
 	if (arr == NULL)
 	{
