@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 /**
  * _strdup - function returns a pointer to a new string 
  * which is a dupicate of the string str.
@@ -20,19 +21,16 @@ char *_strdup(char *str)
 
 	size = strlen(str);
 
-	if (str != NULL)
+	if (str == NULL)
 	{
-		arr = malloc(size * sizeof(char));
-		if (arr != NULL)
+		return (NULL);
+	}
+	arr = malloc(size * sizeof(char));
+	if (arr != NULL)
+	{
+		for (i = 0 ; i < size ; i++)
 		{
-			for (i = 0 ; i < size ; i++)
-			{
-				arr[i] = str[i];
-			}
-		}
-		else
-		{
-			return (NULL);
+			arr[i] = str[i];
 		}
 	}
 	else
