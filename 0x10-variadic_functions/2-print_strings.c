@@ -6,7 +6,7 @@
  * print_strings - function that prints strings.
  *
  * @separator: string to be printed between the strings.
- * @n:the number of strings passed to the function.
+ * @n: the number of strings passed to the function.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -14,8 +14,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list ap;
 	unsigned int i;
 	char *prt;
-
-
+	
+	
+	
 	if (separator == NULL)
 	{
 		return;
@@ -29,7 +30,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (prt == NULL)
 		{
-			prt = "(nil)";
+			printf("(nil)");
 		}
 
 		printf("%s", prt);
@@ -39,6 +40,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 		}
 	}
+
 	printf("\n");
 
 	va_end(ap);
