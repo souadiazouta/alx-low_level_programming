@@ -13,8 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
-	char *prt;
-	
+	char *prt;	
 	
 	
 	if (separator == NULL)
