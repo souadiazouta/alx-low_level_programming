@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - function that prints numbers.
+ * print_numbers - function that prints numbers.
  *
  * @separator: the string to be printed between numbers.
  * @n :variadic inputs type int.
@@ -14,7 +14,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
-
 
 
 
@@ -30,6 +29,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 		}
 	}
+
 	printf("\n");
 
 	va_end(ap);
