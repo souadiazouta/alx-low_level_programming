@@ -6,7 +6,7 @@
  * print_numbers - function that prints numbers.
  *
  * @separator: the string to be printed between numbers.
- * @n :variadic inputs type int.
+ * @n: variadic inputs type int.
  *
  */
 
