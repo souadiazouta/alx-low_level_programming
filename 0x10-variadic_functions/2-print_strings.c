@@ -29,7 +29,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			ptr = "(nil)";
 		}
-		printf("%s", ptr);
+		printf("%s", ptr[i]);
 		if (i !=(n-1))
 		{
 			printf("%s", separator);
