@@ -6,7 +6,7 @@
  * print_strings - function that prints strings.
  *
  * @separator: string to be printed between the strings.
- * @n: the number of strings passed to the function.
+ * @n:the number of strings passed to the function.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
