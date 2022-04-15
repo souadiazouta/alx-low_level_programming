@@ -5,7 +5,8 @@
 /**
  * print_numbers - function that prints numbers.
  *
- * @separator: the string to be printed between numbers.
+ * @separator: the string to be printed
+ *between numbers.
  * @n: variadic inputs type int.
  *
  */
@@ -18,6 +19,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 
 	if (separator == NULL)
+
 		return;
 
 	va_start(ap, n);
