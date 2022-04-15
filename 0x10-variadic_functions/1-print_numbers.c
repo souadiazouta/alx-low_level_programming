@@ -5,8 +5,7 @@
 /**
  * print_numbers - function that prints numbers.
  *
- * @separator: the string to be printed
- *between numbers.
+ * @separator: the string for spare numbers.
  * @n: variadic inputs type int.
  *
  */
@@ -29,6 +28,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("%d", va_arg(ap, const unsigned int));
 
 		if (i != (n - 1))
+
 			printf("%s ", separator);
 	}
 
