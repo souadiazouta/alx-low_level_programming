@@ -19,7 +19,7 @@ int op_add(int a, int b)
  * Return: return sub
  */
 
-int op_sub(int a, int d)
+int op_sub(int a, int b)
 {
 	return (a - b);
 }
@@ -35,7 +35,21 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
-
+/**
+ * op_div - function calcul division
+ * @a: input
+ * @b: input
+ * Return: rturn division
+ */
+int op_div(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("error");
+		exit(100);
+	}
+	return (a / b);
+}
 /**
  * op_mod - function calcul the remainder of division
  *
