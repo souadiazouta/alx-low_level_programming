@@ -3,7 +3,7 @@
 
 /**
  * get_op_func - function that selects the correct
- *  function to perform the operation asked by user
+ * function to perform the operation asked by user
  *
  * @s: the operator passed to the program
  *
@@ -20,9 +20,11 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int i = 0;
+	int i;
 
 
+
+	i = 0;
 	while (i < 5)
 	{
 		if (s[0] == ops[i].op[0])

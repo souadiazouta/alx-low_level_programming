@@ -8,6 +8,7 @@
  * @b: input type intger
  * Return : returns the sum
  */
+
 int op_add(int a, int b)
 {
 	return (a + b);
@@ -36,6 +37,7 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
+
 /**
  * op_div - function calcul division
  * @a: input
@@ -51,6 +53,7 @@ int op_div(int a, int b)
 	}
 	return (a / b);
 }
+
 /**
  * op_mod - function calcul the remainder of division
  *
