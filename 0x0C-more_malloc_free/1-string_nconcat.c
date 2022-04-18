@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = '\0';
 	}
 
-	if (n > strlen(s2))
+	if (n >= strlen(s2))
 	{
 		num = strlen(s1) + strlen(s2);
 	}
@@ -49,7 +49,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ptr[strlen(s1) + i] = s2[i];
 	}
-
+	ptr[i + 1] = '\0';
 	return (ptr);
 
 }
