@@ -4,7 +4,9 @@
 #include <string.h>
 
 /**
- * string_nconcat - function that concatenates twoo string
+ * string_nconcat - function that concatenates 
+ * two string
+ * 
  * @s1: string num 1
  * @s2: string num 2
  * @n: num of byte to take from s2
@@ -51,5 +53,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	ptr[i] = '\0';
 
 	return (ptr);
-
 }
