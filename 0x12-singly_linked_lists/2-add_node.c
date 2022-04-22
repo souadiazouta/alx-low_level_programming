@@ -1,6 +1,8 @@
 #include "lists.h"
 #include <stddef.h>
 #include <string.h>
+#include <stdlib.h>
+
 /**
  * add_node - function that adds bew node
  * at the beginnig of a list
