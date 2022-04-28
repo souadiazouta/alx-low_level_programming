@@ -9,7 +9,7 @@
 
 int get_endianness(void)
 {
-	unsigned int x = 1;
+	unsigned int i = 1;
 
 
 	i = 1;
