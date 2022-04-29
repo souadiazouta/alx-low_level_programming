@@ -4,6 +4,10 @@
 
 /**
  * main - program that prints all arguments it receives.
+ *
+ * @argc: argument number
+ * @argv: argument array
+ *
  * Return: Always 0.
  */
 
