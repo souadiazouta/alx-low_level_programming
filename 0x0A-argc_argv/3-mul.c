@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 #include <string.h>
+
 /**
  * main - program that prints that multiples numbers.
  *
