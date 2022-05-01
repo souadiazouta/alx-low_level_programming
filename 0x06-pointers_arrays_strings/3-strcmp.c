@@ -11,21 +11,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int n1, n2;
+	int i;
 
-	n1 = (int)strlen(s1);
-	n2 = (int)strlen(s2);
 
-	if (n1 == n2)
+	for (i = 0 ; s1[i] != '\0' ; i++)
 	{
-		return (0);
+		if (s1[i] - s2[i] != 0)
+			return (s1[i] - s2[i]);
 	}
-	else if (n1 > n2)
-	{
-		return (15);
-	}
-	else
-	{
-		return (-15);
-	}
+
+	return (0);
+
 }
