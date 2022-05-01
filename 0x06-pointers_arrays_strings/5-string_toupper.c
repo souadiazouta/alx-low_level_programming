@@ -8,7 +8,7 @@
  *  @str: string
  *  Return: string uppercase.
  */
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
 	int i;
 
