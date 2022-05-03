@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * read_textfile - functions that read a text file
@@ -30,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (fd == -1)
 		return (0);
 
-	n = read(fd,  buf,, letters);
+	n = read(fd,  buf, letters);
 	close(fd);
 	if (n == -1)
 		return (0);
